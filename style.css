@@ -1,0 +1,127 @@
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7AB2B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+.container {
+    background-color: #EBF4F6;
+    display: flex; 
+    justify-content: center;    
+    align-items: center;
+    min-height: 65vh;
+    width: 30%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    flex-direction: column;
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.followers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.followers-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+.bio {
+    font-size: 16px;
+    font-weight: bold;
+}
+.followers-count {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+    height: 20px;
+}
+.followers-text-text {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow-button {
+    background-color: #088395;
+    color: #EBF4F6;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.follow-button:hover {
+    background-color: #09637E;
+    color: #EBF4F6;
+    cursor: pointer;
+}
+.follow-button:active {
+    background-color: #09637E;
+    color: #EBF4F6;
+    cursor: pointer;
+}
+.unfollow-button {
+    background-color: #088395;
+    color: #EBF4F6;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unfollow-button:hover {
+    background-color: #740A03;
+    color: #EBF4F6;
+    cursor: pointer;
+}
+.unfollow-button:active {
+    background-color: #740A03;
+    color: #EBF4F6;
+    cursor: pointer;
+}
+
+.is-following {
+    color: #EBF4F6;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    width: 130px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
